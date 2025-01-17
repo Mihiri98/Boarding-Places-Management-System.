@@ -52,7 +52,6 @@
     </div>
   </div>
 </nav>
-
   
 <div class="container">
   <a href="tenant.php" class='btn btn-primary'>Hide Members</a><br><br>
