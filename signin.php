@@ -6,7 +6,6 @@ if(isset($_GET['u'])){
     $uname=$_GET['u'];
     $password=$_GET['p'];
     $loginas=$_GET["l"];
-
     
     if($loginas=="tenant")
     { 
