@@ -51,7 +51,7 @@
   </div>
 </nav>
 
-  
+
 <div class="container">
 <a href="dobooking.html" class='btn btn-primary'>Book Boarding</a>
 <br><br>
