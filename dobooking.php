@@ -15,7 +15,6 @@ if($_GET['submit'])
 		$query="insert into booking(t_id,h_id,booking_date,period,price,agreement) values('$tenantid','$houseid','$booking_date','$period','$price','$agreement')";
 		$data=mysqli_query($conn,$query);
 		if($data)
-
 			{
 				echo "<script type='text/javascript'>alert('Added successfully')
         window.location.href='booking.php';
