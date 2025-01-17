@@ -51,7 +51,6 @@
     </div>
   </div>
 </nav>
-
   
 <div class="container">
   <a href="tenant2.php" class='btn btn-primary'>Show Members</a>
