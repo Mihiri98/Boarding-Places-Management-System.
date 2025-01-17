@@ -17,7 +17,6 @@
  <div class="card-body"><h1 class="card-title"><B>Sign Up</B></h1><br></center>
 <form name="Form1" action="signup.php" method="get">
 
-
 <center><b>Sign Up as: </b>
 		 <select name="s" size="1">
 <option value="owner">Owner</option>
