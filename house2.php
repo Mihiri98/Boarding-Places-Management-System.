@@ -69,6 +69,7 @@
       <th>Rating</th>
       <th>Comments</th>
     </tr>
+    
 <?php
 include("connection.php");
 $query="select * from house h join rating r on h.id=r.id ";
