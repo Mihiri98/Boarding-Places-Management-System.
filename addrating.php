@@ -13,7 +13,6 @@ if($_GET['submit'])
 		$query="insert into rating(id,t_id,rating,comment) values('$houseid','$tenantid','$rating','$comment')";
 		$data=mysqli_query($conn,$query);
 		if($data)
-
 			{
 				echo "<script type='text/javascript'>alert('Added successfully')
         window.location.href='tenant.php';
