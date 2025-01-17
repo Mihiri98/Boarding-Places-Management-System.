@@ -16,7 +16,6 @@ if($_GET['submit'])
 		$query="insert into member(t_id,fname,lname,occupation,gender,dob,relationship) values('$tenantid','$fname','$lname','$occ','$gender','$date','$rel')";
 		$data=mysqli_query($conn,$query);
 		if($data)
-
 			{
 				echo "<script type='text/javascript'>alert('Added successfully')
         window.location.href='tenant.php';
