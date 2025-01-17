@@ -1,8 +1,8 @@
 <?php
 $servername="localhost";
 $username="root";
-$password="";
-$dbname="01 login details & project info.txt";
+$password="mariadb";
+$dbname="boarding";
 $conn= mysqli_connect($servername,$username,$password,$dbname);
 if(!$conn)
 {
